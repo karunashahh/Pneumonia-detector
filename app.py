@@ -13,7 +13,7 @@ THRESHOLD = 0.3
 
 @st.cache_resource
 def load_model():
-    return tf.keras.models.load_model("pneumonia_vgg16.keras")
+    return tf.keras.models.load_model("pneumonia_mobilenetv2_clean_split.keras")
 
 model = load_model()
 
