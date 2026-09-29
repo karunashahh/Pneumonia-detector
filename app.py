@@ -30,7 +30,5 @@ if uploaded:
     label = "PNEUMONIA" if prob >= THRESHOLD else "NORMAL"
 
     st.subheader(f"Prediction: {label}")
-    st.write(f"Model confidence score: {prob:.2f}  (flag threshold: {THRESHOLD})")
-
-    if label == "PNEUMONIA":
-        st.warning("This is a screening tool, not a diagnosis. Consult a radiologist.")
+    st.write(f"Model confidence score: {prob:.2f} (flag threshold: {THRESHOLD})")
+    st.warning("This is a screening tool, not a diagnosis. Consult a radiologist.")
