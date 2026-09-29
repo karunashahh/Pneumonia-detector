@@ -9,7 +9,7 @@ st.title("Pneumonia Detector — Chest X-Ray Classifier")
 st.caption("MobileNetV2, fine-tuned | Threshold tuned for higher recall (screening use case)")
 
 IMG_SIZE = (160, 160)
-THRESHOLD = 0.3
+THRESHOLD = 0.5
 
 @st.cache_resource
 def load_model():
