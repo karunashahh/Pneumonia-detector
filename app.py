@@ -6,7 +6,7 @@ from tensorflow.keras.applications.mobilenet_v2 import preprocess_input
 from PIL import Image
 
 st.title("Pneumonia Detector — Chest X-Ray Classifier")
-st.caption("MobileNetV2, fine-tuned | Threshold tuned for higher recall (screening use case)")
+st.caption("MobileNetV2, fine-tuned | Pneumonia screening classifier")
 
 IMG_SIZE = (160, 160)
 THRESHOLD = 0.5
