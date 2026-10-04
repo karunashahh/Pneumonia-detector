@@ -1,0 +1,2 @@
+timestamp,experiment,test_accuracy,test_auc,test_f2,notes
+2026-09-30T00:30:58.907903,mobilenetv2_clean_patient_split,0.889168765743073,0.942050678168095,0.9353869271224643,"patient-level GroupShuffleSplit, zero train/val/test patient overlap"

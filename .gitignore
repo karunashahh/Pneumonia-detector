@@ -1,0 +1,24 @@
+# Dataset
+Data/
+
+# Jupyter temporary files
+.ipynb_checkpoints/
+
+# macOS
+.DS_Store
+
+# Old VGG16 models
+pneumonia_vgg16.keras
+vgg16_pneumonia_best.keras
+vgg16_pneumonia_model.keras
+
+# Old notebooks
+old_notebooks/
+
+# Old notebooks
+old_notebooks/
+
+# Local/generated files
+__pycache__/
+anaconda_projects/
+*.pyc
