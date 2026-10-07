@@ -100,3 +100,8 @@ Set `DATA_ROOT` in the config cell to your local copy of the `chest_xray` datase
 streamlit run app.py
 ```
 Then open the printed local URL in your browser.
+
+## Contributors
+
+- Karuna Shah
+- Ishapageni
